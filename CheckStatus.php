@@ -1,6 +1,6 @@
 <?php
 
-function check_status($CPU_ALERT, $RAM_ALERT, $DISK_ALERT, $TOKEN, $CHAT_ID, $TOPIC_CHAT_ID){
+function check_status($TOKEN, $CHAT_ID, $TOPIC_CHAT_ID, $CPU_ALERT, $RAM_ALERT, $DISK_ALERT){
     $cpu = intval(shell_exec("top -b -n1 | grep 'Cpu(s)' | awk '{print $2}'"));
     $ram = intval(shell_exec("free | grep Mem | awk '{print $3/$2 * 100.0}'"));
     $disk = shell_exec("df -h / | awk '{print $5}' | sed 's/%//;s/\\n/ /'");

@@ -1,7 +1,7 @@
 <?php
-require('./CheckStatus.php');
+require('CheckStatus.php');
 
-$json_string = file_get_contents('options.txt');
+$json_string = file_get_contents('./options.txt');
 $options_array = json_decode($json_string, true);
 $options = $options_array["options"];
 

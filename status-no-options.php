@@ -1,5 +1,5 @@
 <?php
-require('./CheckStatus.php');
+require('CheckStatus.php');
 
 $TOKEN = '';
 $CHAT_ID = '';
