@@ -1,0 +1,10 @@
+{
+  "options": {
+    "token": "",
+    "chat_id": "",
+    "topic_chat_id": "",
+    "cpu_alert": 80,
+    "ram_alert": 80,
+    "disk_alert": 90
+  }
+}
