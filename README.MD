@@ -11,4 +11,11 @@
 01) Create bot with @botfather and save bot token to options.txt in root of project or inside "no-options" scripts
 02) Invite bot to group with topics
 03) Tweak scripts options and add them to cron or another schedule daemon on your server
+04) For htop screen to work need to install aha and wkhtmltoimage
 
+```bash
+apt install aha
+```
+
+## Link to wkhtmltoimage install commands
+https://computingforgeeks.com/install-wkhtmltopdf-on-ubuntu-debian-linux/
